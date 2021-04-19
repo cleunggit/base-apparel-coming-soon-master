@@ -85,6 +85,18 @@ a, a:visited, a:hover {
   text-align: center;
 }
 
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
 form {
   display: -webkit-box;
   display: -ms-flexbox;
