@@ -1,4 +1,4 @@
-form {
+.form {
   display: flex;
   position: relative;
   align-items: center;
@@ -8,7 +8,7 @@ form {
   padding-bottom: 50px;
 }
 
-.email-group {
+.form__group {
   position: relative;
   display: flex;
   align-items: center;
@@ -16,17 +16,16 @@ form {
   border-radius: 24px;
   height: 48px;
   border: 1px solid $desaturatedRed;
-  margin: 0 10px;
 }
 
-.email-group input:focus {
+.form__group input:focus {
   outline: none;
 }
-.email-input {
+.form__input {
   flex: 1;
 }
 
-.email-input input {
+.form__input input {
   border: none;
   width: 80%;
   height: 100%; 
@@ -34,17 +33,13 @@ form {
   line-height: 1.3;
 }
 
-// input[type="email"], textarea {
-//   background-image: $linear1;
-// }
-
 ::placeholder {
   background-image: $linear1;
   color: $desaturatedRed;
   opacity: 1;
 }
 
-.arrow {
+.form__button {
   display: flex;
   justify-content: center;
   align-items: center;
