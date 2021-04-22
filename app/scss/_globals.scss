@@ -65,7 +65,6 @@ a, a:visited, a:hover {
   }
 }
 
-
 .notice {
   padding: 20px 38px 80px;
 }
@@ -105,6 +104,10 @@ a, a:visited, a:hover {
     line-height: 2;
     letter-spacing: 1;
   }
+}
+
+.hero-desktop img {
+  height: 100%;
 }
 
 // Visiblity

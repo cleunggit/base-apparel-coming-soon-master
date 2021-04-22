@@ -137,6 +137,10 @@ a, a:visited, a:hover {
   }
 }
 
+.hero-desktop img {
+  height: 100%;
+}
+
 @media (max-width: 63.9375em) {
   .hide-for-mobile {
     display: none;
